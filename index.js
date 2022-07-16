@@ -19,7 +19,7 @@ const corsOptions = {
 }
 
 app.use(cors(corsOptions));
-const PORT = 4000;
+const PORT = process.env.port || 4000;
 
 app.use('/api/v1/dataset', jsonParser, require("./routes"));
 
