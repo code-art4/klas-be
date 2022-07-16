@@ -1,0 +1,23 @@
+{
+    "name": "klas-be",
+    "version": "1.0.0",
+    "description": "Klas backend that provides api for fetching data, editing and deleting data",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Triumph (code_art4)",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "mongoose": "^6.4.4",
+        "nodemon": "^2.0.19"
+    },
+    "devDependencies": {
+        "typescript": "^4.7.4"
+    }
+}
